@@ -1,0 +1,77 @@
+/**Base Styles **/
+body {
+    font-size: 1.2rem;
+}
+main {
+    background-color: aliceblue;
+    padding-bottom: 4rem;
+}
+
+.text-primary {
+    color: rgb(28, 158, 152) !important;
+}
+
+.form-group {
+    padding-top: 10px;
+}
+
+.form-group input, .form-group textarea {
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-radius: 0;
+}
+
+.form-group input:focus {
+    border-top: 0px;
+}
+
+/**ID Styles **/
+#footer {
+    font-size: medium;
+    background-color: #fff;
+}
+
+#footer a {
+    font-size: .85rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+/**Class Styles **/
+.card {
+    border-radius: 0;
+}
+
+.card .media .heading p {
+    font-size: 1rem;
+}
+
+.btn {
+    color: inherit;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    color: #fff;
+}
+
+.btn:hover, .btn:active {
+    background-color: rgb(28, 158, 152);
+    border-color: rgb(28, 158, 152);
+}
+
+.btn-outline-primary {
+    border-color: inherit;
+}
+
+
+/**Media qeries **/
+@media(min-width: 769px){
+    #main-content h1 {
+        font-size: 6.5rem;
+    }
+}
